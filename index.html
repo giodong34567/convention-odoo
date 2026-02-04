@@ -300,7 +300,7 @@ git config --global user.email "thienba@xink.tech"
                 "details-manifest": `
                     <h3 class="text-xl font-bold text-slate-100">📄 __manifest__.py</h3>
                     <h4>1. Mục đích</h4><p class="text-slate-400">Là file "linh hồn" của module, khai báo mọi thông tin, dependencies, và danh sách các file (xml, csv) cần được load.</p>
-                    <h4>2. Quy tắc trong code</h4><p class="text-slate-400">Tên kỹ thuật của module phải theo mẫu <code>xink_&lt;tên_chức_năng&gt;</code>. Ví dụ: <code>xink_user_management</code>.</p>
+                    <h4>2. Quy tắc trong code</h4><p class="text-slate-400">Tên kỹ thuật của module phải theo mẫu <code>company_&lt;tên_chức_năng&gt;</code>. Ví dụ: <code>xink_user_management</code>.</p>
                     <h4>3. Giải thích thứ tự Loading trong key 'data'</h4>
                     <p class="text-slate-400">Thứ tự các file được liệt kê trong key <code>'data'</code> là cực kỳ quan trọng vì Odoo sẽ load chúng tuần tự. Việc sắp xếp sai có thể gây ra lỗi "External ID not found" nếu một file cố gắng sử dụng một record (view, group, menu) chưa được tạo.</p>
                     <p class="text-slate-400 mt-2">Quy tắc sắp xếp khuyến nghị:</p>
